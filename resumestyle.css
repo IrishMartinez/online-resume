@@ -6,7 +6,7 @@
   box-sizing: border-box;
 }
 :root {
-  --primary-color: #ff7613;
+  --primary-color: #1c1c1c;
   --text-color: #1c1c1c;
 }
 html {
@@ -15,10 +15,9 @@ html {
 body{
   font-family: Inter, sans-serif;
   background-color: beige;
-  color: maroon;
+  color: black;
 }
 
-/* common styles*/
 img {
   width: 100%;
 }
@@ -98,7 +97,7 @@ a {
     gap: 7rem;
   }
 }
-.profile {
+.profiles {
   grid-column: 1 / -1;
   margin-bottom: 2rem;
 }
@@ -128,6 +127,18 @@ a {
   font-size: 1.6rem;
   color: maroon;
 }
+.item_preTitle4 {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+.profile_profileImg {
+  margin: 0 auto;
+  display: grid;
+  padding: 5rem;
+  max-width: 100%;
+  height: auto; 
+}
+
 
 /* profile*/
 .profile_container {
@@ -135,7 +146,7 @@ a {
   gap: 2rem;
 }
 .profile_profileImg {
-  max-width: 250px;
+  max-width: 50000px;
 }
 .profile_name_firstName{
   color: maroon;
@@ -185,9 +196,10 @@ a {
 .ref_item {
   margin-top: 2rem;
 }
-.ref_name {
-  font-size: 1.6rem;
-  font-weight: 700;
+.refer_names {
+  font-style: italic;
+  font-size: 2px;
+  font-weight: 70;
 }
 
 /* education*/
